@@ -1,0 +1,60 @@
+
+html {
+  text-align: center;
+  font-family: Quicksand;
+  background-color: palevioletred;
+}
+
+h1 {
+  margin-bottom: 2px;
+  color: powderblue;
+}
+
+label {
+  color: powderblue;
+}
+
+#quantity {
+  font-family: quicksand;
+  width: 50px;
+  color: slategrey;
+}
+.reset {
+  background-color: darkgrey;
+  border: 2px solid grey;
+  color: white;
+  font-family: Quicksand;
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+button:active {
+  background-color: slategray;
+  transform: translateY(0.5px);
+}
+
+button:focus 
+{ outline:0 !important; 
+}
+
+
+
+.square {
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.color {
+  background-color: #be93d4;
+  border: 1px solid grey;
+}
+
+.gridContainer {
+  margin-top: 5px;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  border: 3px solid grey;
+  border-radius: 5px;
+  height: 575px;
+  width: 575px;
+}
