@@ -35,6 +35,14 @@ function changeColor(event) {
     event.target.classList.replace("square", "color");
 }
 
+//allow grid to be updated on enter keypress
+document.getElementById("quantity").onkeypress = function(event){
+    if (event.keyCode == 13 || event.which == 13){
+        updateGrid();
+    }
+};
+
+//also allow grid to be update on pressing Reset button
 resetButton.addEventListener("click", updateGrid);
 
 
